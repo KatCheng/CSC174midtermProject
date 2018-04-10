@@ -16,10 +16,10 @@ On the index page, I will use a picture of Shin-chan as the background image, to
 * F-Pattern: 
 
 * C.R.A.P principles
- * Contrast:
- * Repetition:
- * Alignment:
- * Proximity
+   Contrast:
+   Repetition:
+   Alignment:
+   Proximity
  
 * Typefaces/Fonts
 
