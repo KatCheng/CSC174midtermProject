@@ -1,4 +1,6 @@
 # CSC174 Midterm Project
+### Name: Xiao Cheng
+Website location: http://www.urcsc174.org/midterm/xcheng5/index.php
 
 ## Information Architecture
 
@@ -17,14 +19,16 @@ This is used in the index page because it is less content-heavy. The Z-Pattern h
 #### F-Pattern: 
 
 #### C.R.A.P principles
-  * Contrast:
-  * Repetition:
-  * Alignment:
-  * Proximity
+  * Contrast: Used different sizes of fonts to represent the levels of importance. Also made some elements bold in order to stress the importance.
+  * Repetition: Used same kind of font for same kind of element (e.g. 'Dokdo' for h1, 'Gloria Hallelujah' for h2 and h3, 'kalam' for p, etc.). Used same colors for every page. Remained in the same format for sections within the same page. 
+  * Alignment: Used left alignment on all pages. Used center alignment for all titles.
+  * Proximity: Related information were grouped together and displayed on the same page.
  
 #### Typefaces/Fonts
+I actually picked more than two typefaces, all of which are from google fonts. I picked Dokdo for h1 because it is really bold and I think it really suits the title of each page. I picked Jua for the links because I want them to stand out and be more noticeable. I also picked Gloria Hallelujah and Kalam for other headings and paragraphs, respectively, because I want the users to be able to distinguish each elements. I did not use the same font bewteen the title (h1) and other headings (h2 and h3) because I do not think the bolder font is suitable within the main contents. All fonts that I pick have one most important thing in common - they all convey a cartoon-y mood, which I think really goes well with our domain (Crayon Shin-chan the anime).
 
 #### CSS Architecture
+I used normalize.css before applying my styles.css, in order to normalize the default browser settings. There are two main parts of my CSS architecture - BASE and LAYOUT. There are also more specific sections, such as z-pattern for the index page, as well as specific styles for elements like navigation bar and form.
 
 ## Technical Coding
 
@@ -34,3 +38,6 @@ This is used in the index page because it is less content-heavy. The Z-Pattern h
   * database name = "urcscon3_xcheng5"
   
 #### Credit
+I "stole" Professor Kostin's index page, because I think it works really well for the Z-Pattern requirement. However, I modified some of his CSS codes and added more CSS codes for my other pages and elements. As for my content, I picked some from Wikipedia, and included the link in the reference section on each page. 
+Professor Kostin's original website link:http://www.urcsc174.org/midterm/rkostin/demo.html
+
