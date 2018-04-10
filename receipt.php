@@ -1,6 +1,6 @@
 <?php
   // Step 1: Create a database connection
-  $dbhost = "66.147.242.186";
+  $dbhost = "localhost";
   $dbuser = "urcscon3_xcheng5";
   $dbpass = "coffee1N";
   $dbname = "urcscon3_xcheng5";
