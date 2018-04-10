@@ -179,6 +179,14 @@ LAYOUT STYLES
   max-width: 1200px;
 }
 
+.container{
+	margin-top: -43px;
+	background-image: url(../media/background.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 /*  Fixed positioning of the header/footer
   ************************************** */
 .persistent {
@@ -300,20 +308,13 @@ header .index-container, footer .index-container, .fpattern {
 }
 
 
-/*	Main titles and container styling
+/*	Main titles styling
 	************************************/
 
 .head{
 	text-align: center;
 	font-size: 35px;
 	font-family: 'Dokdo', cursive;
-}
-.container{
-	margin-top: -43px;
-	background-image: url(../media/background.jpg);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 /*	Javascript effect
