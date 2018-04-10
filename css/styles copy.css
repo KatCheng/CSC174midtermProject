@@ -1,0 +1,24 @@
+
+.receipt{
+	text-align: center;
+	width: 550px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	top: 90%;
+	transform: translate(-50%, -50%);
+}
+.receipt a{
+	text-decoration: none;
+	background-color: #bc1010;
+	border-radius: 16px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 20px;
+	color: #fffc59;
+	font-family: 'Jua', sans-serif;
+}
+.receipt a:hover{
+	background-color: #fffc59;
+	color: #bc1010;
+}

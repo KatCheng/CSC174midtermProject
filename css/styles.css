@@ -1,0 +1,323 @@
+/* *****************
+BASE
+***************** */
+
+h1{
+  	font-family: 'Dokdo', cursive;
+}
+
+h2{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 25px;
+}
+h3{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 15px;
+	margin-left: 40px;
+	padding-left: 30px;
+}
+
+p, h2{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+p{
+	font-family: 'Kalam', cursive;
+	font-size: 18px;
+}
+
+article{
+	margin-top: 30px;
+	background-color: #eaf0f9;
+	opacity: 0.8;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 15px;
+}
+article img{
+	width: 250px;
+	height: 250px;
+	float: right;
+	margin-right: 50px;
+}
+
+aside{
+	float: right;
+}
+aside img{
+	width: 200px;
+	padding-left: 10px;
+}
+
+header{
+  background-color: #FEF56C;
+}
+
+footer { 
+  padding: 10px 0; 
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(165,108,33,1);
+  border-bottom: 1px dashed rgba(165,108,33,1);
+}
+
+header a, footer a { 
+  color: #fffc59;
+  border-bottom-color: #fffc59;
+}
+
+a:hover {
+  color: #bc1010;
+}
+
+strong{
+	font-size: 13px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+/*	Navigation bar styles
+	**************************/
+.navigation{
+	background-color: #f9db54;
+	height: 280px;
+}
+.navigation-image img{
+	height: 260px;
+	width: 450px;
+	padding-left: 60px;
+}
+nav{
+	float: left;
+	padding-top: 45px;
+	padding-left: 5px;
+}
+nav li{
+	display: block;
+	border-style: dashed;
+	border-radius: 16px;
+	margin: 13px;
+}
+nav li a{
+	color: white;
+	text-decoration: none;
+	padding: 0px;
+	font-size: 20px;
+	font-family: 'Jua', sans-serif;
+}
+nav li img{
+	height: 40px;
+	width: 40px;
+}
+
+/*  Big Message styles 
+  ************************************** */
+.big-message {
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 30px black;
+}
+
+.big-message h1 {
+  font-size: 70pt;
+  font-weight: normal;
+  margin: 0;
+}
+
+.big-message .subtitle {
+  font-family: 'Dokdo', cursive;
+  font-size: 28pt;
+
+}
+
+/* Media page styles
+	********************/
+.anime{
+	text-align: center;
+}
+.anime img{
+	width: 1200px;
+}
+
+/* History page style
+	**********************/
+.basic-info{
+	margin-top: 65px;
+	background-color: #eaf0f9;
+	opacity: 0.8;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 15px;
+}
+
+/*	Form style
+******************/
+form{
+	float: right;
+	padding-top: 130px;
+	padding-right: 20px;
+	color: black;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 15px;
+}
+
+form img{
+	width: 130px;
+	height: 130px;
+	float: left;
+}
+
+/* ***************************************
+LAYOUT STYLES
+*************************************** */
+.index-container {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 1200px;
+}
+
+/*  Fixed positioning of the header/footer
+  ************************************** */
+.persistent {
+  position: fixed;
+  left: 0;
+  width: 100%;
+}
+header.persistent { top: 0; }
+footer.persistent { bottom: 0; }
+
+/*  Styling of the Z-pattern page layout 
+  ************************************** */
+.z-pattern { 
+  background-image:url(../media/home.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.z-pattern header, .z-pattern footer { 
+  background-color: rgba(224,216,92,0.4);
+}
+.z-pattern header { box-shadow: 0 10px 50px 30px rgba(224,216,92,0.4); }
+.z-pattern footer { box-shadow: 0 -10px 50px 30px rgba(224,216,92,0.4); }
+
+/*  Styling of the four Z-pattern quadrants 
+  ************************************** */
+.z-pattern .primary, 
+.z-pattern .strong, 
+.z-pattern .weak, 
+.z-pattern .terminal {
+  margin: 35px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  color: #fffc59;
+}
+.primary, .weak { margin-left: 0; }
+.strong, .terminal { margin-right: 0; }
+
+
+/*  Flex positioning of the four quadrants
+  ************************************** */
+header .index-container, footer .index-container, .fpattern { 
+  display: flex;
+  justify-content: space-between;
+}
+.big-message, .primary, .strong { flex: 1 0 33%; }
+.strong { flex-shrink: 1; }
+
+.primary, .strong, .weak, .terminal { 
+  align-self: center;
+  color: #fffc59;
+  text-shadow: 0 0 10px black;
+}
+.strong, .terminal { text-align: right; }
+
+
+/*  Positioning of the centered message
+  ************************************** */
+.z-pattern main { 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+/* Reference Style
+*************************/
+.reference p{
+	font-size: 12px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+/* Change wordings after subscribing
+	**********************************/
+.thanks{
+	float: right;
+	padding-top: 70px;
+	padding-right: 20px;
+}
+.thanks p{
+	text-align: center;
+	color: black;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 25px;
+}
+
+.thanks img{
+	width: 160px;
+	height: 160px;
+	float: left;
+}
+
+/* Receipt page styles
+	**********************/
+
+.receipt{
+	text-align: center;
+	width: 550px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	top: 90%;
+	transform: translate(-50%, -50%);
+}
+.receipt a{
+	text-decoration: none;
+	background-color: #bc1010;
+	border-radius: 16px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 20px;
+	color: #fffc59;
+	font-family: 'Jua', sans-serif;
+}
+.receipt a:hover{
+	background-color: #fffc59;
+	color: #bc1010;
+}
+
+
+/*	Main titles and container styling
+	************************************/
+
+.head{
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Dokdo', cursive;
+}
+.container{
+	margin-top: -43px;
+	background-image: url(../media/background.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*	Javascript effect
+	*********************/
+.is-current{
+	color: black;
+}
