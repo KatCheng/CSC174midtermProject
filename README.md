@@ -17,6 +17,7 @@ On the index page, I will use a picture of Shin-chan as the background image, to
 This is used in the index page because it is less content-heavy. The Z-Pattern has four quadrants - primary, strong, weak, and terminal. As the name indicated, each quadrant serves contents with different levels of importance - primary: history and basic information; strong: media(anime); weak: description of the Shin-chan; terminal: main characters.
 
 #### F-Pattern: 
+I used F-Pattern on my history and media pages, because they are more content-heavy. I put the title and paragraph(s) on the left and image on the right because I think the levels of importance should be title > paragraph > image. The F-Pattern is designed based on four points: 1)Most important content across the top - navigation bar, logo; 2)Sign-up form on the top right corner; 3)and 4)Titles, contents, and images.
 
 #### C.R.A.P principles
   * Contrast: Used different sizes of fonts to represent the levels of importance. Also made some elements bold in order to stress the importance.
